@@ -4,6 +4,7 @@
       <BarraLateral @aoTemaAlterado="trocarTema" />
     </div>
     <div class="column is-three-quarter conteudo">
+      
       <Formulario @aoSalvarTarefa="salvatTarefa" />
       <div class="lista">
         <TarefaVue
